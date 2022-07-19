@@ -3,12 +3,76 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <header class="header" > CIPHER KIDS </header>
+    <ul class="menu">
+      <li><a class="nav" href="#">Principal</a></li>
+      <li><a class="nav" href="#">Soporte</a></li>
+      <li><a class="nav" href="#">Instrucciones</a></li>
+    </ul>
+    <img src="C:\Users\Beatriz\Desktop\Programacion\Laboratoria\Proyecto Cifrado Cesar\Imagenes\espia sin fondo.png" alt="">
+    <div id="root"> 
+    <form id="cifrarf" autocomplete="off">
+      <table class="tg">
+        <tr>
+          <td>    
+            <h3 class="parrafo1">Ingresa el mensaje a codificar. <br> Solo debes usar
+             el alfabeto simple ( mayúsculas y sin ñ) <br/>    
+            </h3>
+          </td>
+          <td>
+            <input class="input" type="text" id="string" placeholder="Ingrese el mensaje">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!--<h3 class="parrafo1">Ingresa el número de desplazamiento>  
+            </h3-->        
+          </td>
+          <td>
+            <input class="input" type="number" id="offset" placeholder="Ingrese Nro de desplazamiento">
+            <p class ="mensaje">Tu mensaje Codificado es: <span id="mensaje"> </span>  </p>
+            <!--Nuevo-->
+            <button type="button" class="botonindex"  id="BotonCifrar" > CIFRAR </button>
+            <textarea class="input" id="MensajeCifrado" ></textarea>
+            <!--Nuevo-->
+          </td>
+        </tr>
+        <!--Nuevo-->
+        <tr>
+          <td>    
+            <h3 class="parrafo1">Ingresa el mensaje a decodificar. <br/> Solo debes usar
+             el alfabeto simple ( mayúsculas y sin ñ) <br/>    
+            </h3>
+          </td>
+          <td>
+            <input type="text" class="input" id="string2" placeholder="Ingrese el mensaje">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!--<h3 class="parrafo1">Ingresa el número de desplazamiento> 
+            </h3-->        
+          </td>
+          <td>
+            <input type="number"  class="input" id="offset2" placeholder="Ingrese Nro de desplazamiento">
+            <p class="input">Tu mensaje Decodificado es: <span id="mensaje2"> </span>  </p>
+            <!--Nuevo-->
+            <button class="botonindex" type="button" id="BotonDeCifrar" > DECIFRAR </button>
+            <textarea class="input" id="MensajeDeCifrado" ></textarea>
+            <!--Nuevo-->
+          </td>
+        </tr>
+        <!--Nuevo-->
+    </table>
+     <center>
+   <button class="botonindex" type="reset">Resetear</button>
+  </center>
+</form>
     </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
+
