@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+        <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" > CIPHER KIDS </header>
+    <ul class="menu">
+      <li><a class="nav" href="#">Principal</a></li>
+      <li><a class="nav" href="#">Soporte</a></li>
+      <li><a class="nav" href="#">Instrucciones</a></li>
+    </ul>
+    <div id="root"> 
+  <center>
+    <form id="cifrarf" autocomplete="off">
+      <br><br>
+      <table class="tg">
+        <tr>
+          <td>
+            <input class="string" type="text" id="string2" placeholder="Ingresa el mensaje a decodificar" >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="offset" type="number" id="offset2" placeholder="Ingrese Nro de desplazamiento" >
+            <p class ="mensaje">Tu mensaje Decodificado es: <span id="mensaje2"> </span>  </p>
+            <textarea class="string" id="MensajeDeCifrado" ></textarea>
+          </td>
+        </tr>
+    </table>
+   <button class="botonindex" type="button" id="BotonDeCifrar" > Decifrar </button>
+   <button class="botonindex" type="reset">Resetear</button>
+   <button type="button" class="botonindex"  id="Volver" onclick="location.href='index.html';"> Volver </button>
+</form>
+  </center>
+    </div>
+    <footer  style="width:100%; margin-left: 0px;"  >
+      <div class="copyright" style="background-color: #0d47a1;">
+          <div class="container-fluid" style="background-color: #0d47a1; color: #bbdefb;">
+              ©  Copyright:Desarrollado por Beatriz Maldonado       
+          </div>
+      </div>
+    </footer>
+    <script src="index2.js" type="module"></script>
+  </body>
+</html>

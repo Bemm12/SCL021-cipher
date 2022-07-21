@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+        font-family: sans-serif;
+        background-image:linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3))
+        ,url(FondoOscuro2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+  }
+  .parrafo1 {
+    display: flex;
+    color: #FFFFFF;
+    text-align:justify;
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    width: 60%;
+    margin-left: 15%;
+    line-height:2.5ch;    
+  } 
+  .parrafo2 {
+    display: flex;
+    color: #FFFFFF;
+    text-align:justify;
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 3%;
+    line-height:2.5ch;
+  } 
+  #mensaje {
+    display: flex;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 20px;     
+  }
+  .mensaje {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 20px;    
+    }
+  .botonindex {
+    padding: 10px 20px;
+    background:whitesmoke;
+    color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;   
+    margin-top: 4%;
+}
+.botonindex:active {
+  position: relative;
+  top: 5px;
+  color: rgb(250, 250, 250);
+  background:#7292e4;
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: 8%;
+  text-shadow: 20px 10px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Russo One', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 3%;
+  background-color: #7292e4;   
+}
+.menu{
+  list-style: none;
+  padding: 0%;
+  font-family: 'Righteous', cursive;
+  font-size: 120%;
+  top: 5%;
+  right: 5%;
+  position: absolute;  
+}
+.menu li a{
+  text-decoration: none;
+  color:#E2DAFF ;
+  padding: 30px;  
+}
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+h1{
+  text-align:center;
+  color: #f9fafa;
+  font-size: 30px;
+  margin-top: 3%;
+  } 
+ .string
+  {
+  border-radius: 15px;
+  width: 400px;
+  padding: 15px;  
+  border-color: #97d9e1;
+  }  
+   .offset
+  {
+  border-radius: 15px;
+  width: 400px;
+  padding: 15px;  
+  border-color: #97d9e1;
+  }
+  .input{
+    border-radius: 15px;
+    width: 400px;
+    padding: 15px;  
+    border-color: #97d9e1;
+  }
+  
