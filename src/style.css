@@ -4,16 +4,11 @@ html {
   }
   body {
         font-family: sans-serif;
-     /*background-color: #f1f2f7;*/
-     /*background-image: url(fondo1.jpg);*/
-     background-image:linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3))
+        background-image:linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3))
         ,url(FondoOscuro2.jpg);
-     /*background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-position: right bottom;*/
-     background-size: cover;
-     background-position: center;
-     background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
   }
   .parrafo1 {
     display: flex;
@@ -24,8 +19,7 @@ html {
     font-size: 20px;
     width: 60%;
     margin-left: 15%;
-    line-height:2.5ch;
-    
+    line-height:2.5ch;    
   } 
   .parrafo2 {
     display: flex;
@@ -45,19 +39,15 @@ html {
     text-align: center;
     font-family: monospace;
     font-style: italic;
-    font-size: 20px;
-     
+    font-size: 20px;     
   }
   .mensaje {
     color: #FFFFFF;
     text-align: center;
     font-family: monospace;
     font-style: italic;
-    font-size: 20px;
-    
+    font-size: 20px;    
     }
-
-  /*Nuevo*/
   .botonindex {
     padding: 10px 20px;
     background:whitesmoke;
@@ -66,7 +56,6 @@ html {
     text-decoration: none;
     transition-duration: 0.4s;
     cursor: pointer;   
-    /*margin-left: 65%;*/
     margin-top: 4%;
 }
 .botonindex:active {
@@ -75,7 +64,6 @@ html {
   color: rgb(250, 250, 250);
   background:#7292e4;
 }
-
 .header {
   position: relative;
   width: 100%;
@@ -86,8 +74,7 @@ html {
   text-align: center;
   color: #ffffff;
   margin-top: 3%;
-  background-color: #7292e4;
-       
+  background-color: #7292e4;   
 }
 .menu{
   list-style: none;
@@ -96,17 +83,13 @@ html {
   font-size: 120%;
   top: 5%;
   right: 5%;
-  position: absolute;
-  
-  
+  position: absolute;  
 }
 .menu li a{
   text-decoration: none;
   color:#E2DAFF ;
-  padding: 30px;
-  
+  padding: 30px;  
 }
-
 .menu li {
   display: inline-block;
   text-align: center;
@@ -120,22 +103,19 @@ footer {
   margin: 0;
   text-align: center;
 }
-
 h1{
   text-align:center;
   color: #f9fafa;
   font-size: 30px;
   margin-top: 3%;
-  }
- 
+  } 
  .string
   {
   border-radius: 15px;
   width: 400px;
   padding: 15px;  
   border-color: #97d9e1;
-  }
-  
+  }  
    .offset
   {
   border-radius: 15px;
@@ -143,7 +123,6 @@ h1{
   padding: 15px;  
   border-color: #97d9e1;
   }
-
   .input{
     border-radius: 15px;
     width: 400px;

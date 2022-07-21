@@ -1,18 +1,13 @@
 import cipher from './cipher.js';
-
 console.log(cipher);
-
-
 document.getElementById("BotonCifrar").addEventListener("click", function(){
    // Esta funcion realiza la asignacion de las variables  text y offset y que de un mensaje si el campo texto  esta en blanco.  
     let text = document.getElementById("string").value;
     let offSet =Number.parseInt(document.getElementById("offset").value);
-    //let offSet =document.getElementById("offset").value;
     if(text===''){
       alert('Aún no haz ingresado un Mensaje a Cifrar')
     }
     // Esta funcion llama a cipher.encode le da los valores que necesita y asigna al ID MensajeCifrado el resultado
-
     else{
     let codedText= cipher.encode(offSet,text);
     let finalText= document.getElementById("MensajeCifrado");
@@ -31,11 +26,3 @@ document.getElementById("BotonCifrar").addEventListener("click", function(){
     finalText.value=decodedText
     }
    }, true); 
-
-
-
-
-
-
-
-

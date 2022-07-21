@@ -1,4 +1,34 @@
-# Cifrado César
+## Nombre: Cipher Kids
+
+Cipher Kids es una plataforma que permite jugar cifrando y decifrando mensajes secretos. Esta dirigia a niños, para que se diviertan jugando con sus mensajes top secret.
+
+## Cómo se usa la codificación
+
+ 1. Ingresando el mensaje que se debe codificar,  usando el alfabeto A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z.
+
+2. Luego de ingresar el mensaje, se debe seleccionar la clave del mensaje según el número del desplazamiento.
+
+## Cómo se usa la decodificación
+
+1. Ingresando el mensaje que se debe decodificar,  usando el  alfabeto simple (solamente mayúsculas y sin ñ): A B C D E F G H I J K L M N O P Q R S T U V W X Y Z.
+
+2. Luego de ingresar el mensaje, se debe seleccionar la clave del mensaje según el número del desplazamiento.
+
+## Navegación
+Se ingresa en la página principal index.html que brinda la opcion de navegar entre las paginas  cifrar y decifrar, las cuales tiene opcion de reseteo del mensaje ingresado  y volver a la  página principal. 
+
+## Diseño incial del prototipo 
+De esta forma se habia realizado el diseño inicial del proyecto en figma:
+![](Imagenes%20Readme/inicio%20figma.jpg)
+![](Imagenes%20Readme/codificar%20figma.jpg)
+![](Imagenes%20Readme/decodificar%20figma.jpg)
+
+## Diseño final del proyecto 
+De esta forma se vizualiza el proyecto webb:
+![](Imagenes%20Readme/inicio.jpg)
+![](Imagenes%20Readme/cifrar.jpg)
+![](Imagenes%20Readme/decifrar.jpg)
+
 
 ## Índice
 
