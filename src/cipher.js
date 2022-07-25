@@ -1,12 +1,12 @@
 const cipher = {
-  // ...
-  encode: function(offSet, text){
+    encode: function(offSet, text){
     if(text === 'null' || text.length === 0 || text === 0){
         throw new TypeError();
+        //throw new TypeError('Se han introducido valores invalidos');
     }
-    let array=[];
+    let array=[];//me guardara el nuevo mensaje//
     for  (let i=0; i<text.length; i++){
-        //Obtiene Codigo ASCII del caracter
+        //Obtiene Codigo ASCII de cada caracter 
         let ascii = text.charCodeAt(i); // video michelle//
         if((ascii>64)&&(ascii<91)){//itera en el rango de 65 al 90 codigo ascii
         //Obtiene numero de la letra a codificar
@@ -31,7 +31,7 @@ const cipher = {
     }
     return array
 },
-decode: function(offSet2, text2){
+decode: function(offSet2,text2){
     if(text2 === 'null' || text2.length === 0 || text2 === 0){
         throw new TypeError ();
     }

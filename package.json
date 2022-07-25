@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bemm12.github.io/SCL021-cipher/src/",
   "name": "cipher",
   "version": "1.0.0",
   "main": "src/index.html",

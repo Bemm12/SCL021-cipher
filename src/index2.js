@@ -1,9 +1,10 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
+//console.log(cipher);//
 document.getElementById("BotonDeCifrar").addEventListener("click", function(){
     let text2 = document.getElementById("string2").value;
-    let offSet2 =Number.parseInt(document.getElementById("offset2").value);//Number.parseInt() pasa offSet2 automaticamente a numero 
+    let offSet2 =Number.parseInt(document.getElementById("offset2").value);
+    //Number.parseInt() pasa offSet2 automaticamente a numero 
     if(text2===''){
       alert('Aún no haz ingresado un Mensaje a Decifrar')
     }
